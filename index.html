@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Painting</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 325px;
+            height: 330px;
+
+            padding: 9px;
+
+            background-color: black;
+            display: grid;
+
+            grid-template-columns: 52px 48px 48px 44px 44px 28px 35px;
+            grid-template-rows: 23px 60px 40px 40px 23px 13px 50px 50px;
+
+            gap: 4px;
+        }
+        .blue1{
+            background-color: blue;
+            grid-column: span 1;
+        }
+
+        .white1{
+            background-color: white;
+            grid-column: span 2;
+        }
+
+        .black1{
+            background-color: black;
+            grid-column: span 2;
+        }
+
+        .white2{
+            background-color: white;
+            grid-row: span 2;
+        }
+
+        .white3{
+            background-color: white;
+            grid-row: span 2;
+        }
+
+        .white4{
+            background-color: white;
+            grid-row: span 6;
+        }
+
+        .red1{
+            background-color: red;
+            grid-column: span 2;
+            grid-row: span 3;
+        }
+
+        .yellow1{
+            background-color: yellow;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .white5{
+            background-color: white;
+            grid-row: span 4;
+        }
+
+        .red2{
+            background-color: red;
+            grid-row: span 4;
+        }
+
+        .blue2{
+            background-color: blue;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .blue3{
+            background-color: blue;
+            grid-row: span 2;
+        }
+
+        .yellow2{
+            background-color: yellow;
+            grid-row: span 2;
+        }
+
+        .black2{
+            background-color: black;
+            grid-column: span 2;
+        }
+
+        .white6{
+            background-color: white;
+            grid-column: span 3;
+        }
+
+        .yellow3{
+            background-color: yellow;
+            grid-column: span 3;
+        }
+
+        .white7{
+            background-color: white;
+        }
+
+        .white8{
+            background-color: white;
+            grid-column: span 3;
+        }
+
+        .red3{
+            background-color: red;
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item blue1"></div>
+        <div class="item white1"></div>
+        <div class="item black1"></div>
+        <div class="item white2"></div>
+        <div class="item white3"></div>
+        <div class="item white4"></div>
+        <div class="item red1"></div>
+        <div class="item yellow1"></div>
+        <div class="item white5"></div>
+        <div class="item red2"></div>
+        <div class="item blue2"></div>
+        <div class="item blue3"></div>
+        <div class="item yellow2"></div>
+        <div class="item black2"></div>
+        <div class="item white6"></div>
+        <div class="item yellow3"></div>
+        <div class="item white7"></div>
+        <div class="item white8"></div>
+        <div class="item red3"></div>
+    </div>
+    
+</body>
+</html>
